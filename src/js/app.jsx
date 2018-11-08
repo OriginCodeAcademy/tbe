@@ -3,7 +3,7 @@ import {
   HashRouter as Router, 
   Route 
 } from 'react-router-dom';
-
+import YelpSearchContainer from './containers/YelpSearchContainer';
 
 class App extends React.Component {
   render() {
@@ -11,7 +11,7 @@ class App extends React.Component {
 
       <Router>
         <div className='container'>
-          <h1>THIS BE TBE</h1>
+          <Route exact path='/' component={YelpSearchContainer} />
         </div>
       </Router>
     )
