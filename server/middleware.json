@@ -1,7 +1,7 @@
 {
   "initial:before": {
     "loopback#favicon": {
-      "params": "/Users/abbysy/Downloads/tbe-nm-add-api/favicon.ico"
+      "params": "./favicon.ico"
     }
   },
   "initial": {
